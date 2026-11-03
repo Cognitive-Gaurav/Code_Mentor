@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C / C++ build outputs
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.dylib
+
+# Sandboxes & Temp folders
+codementor_sandbox_*
+.sandbox/
+scratch/
+tmp/
+temp/
+Hackathon Project/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+.env.local
+.env.*.local
+*.secret
+secrets/
+backups/
+
+# Local databases contain user records and must not be committed.
+*.db
+*.sqlite
+*.sqlite3
+# SQLite lock and temporary journal files
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Temporary files and logs
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+
+# IDE / Editor personal configuration
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# ZIP archives and generated project backups
+*.zip

@@ -1,0 +1,4 @@
+# CodeMentor — Python Dependencies for Render
+# Note: CodeMentor is built natively with Python Standard Library modules
+# (http.server, sqlite3, subprocess, urllib, json, threading).
+# No external pip wheels are strictly required.

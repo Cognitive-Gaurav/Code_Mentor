@@ -1,0 +1,40 @@
+# Secrets, user data and local runtime state
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+backups/
+*.zip
+*.bak
+*.backup
+
+# Python and compiler-generated files
+__pycache__/
+*.py[cod]
+.sandbox/
+codementor_sandbox_*/
+*.o
+*.obj
+*.exe
+*.out
+*.class
+
+# Local tools and OS metadata
+.git/
+.github/
+.vscode/
+.idea/
+venv/
+.venv/
+env/
+ENV/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
